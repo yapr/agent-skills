@@ -1,0 +1,9 @@
+{
+  "allowedRepos": ["example-org/example-app", "example-org/example-tools"],
+  "scope": "all",
+  "period": "weekly",
+  "timezone": "Asia/Tokyo",
+  "format": "both",
+  "workspace": "T_REPLACE_ME",
+  "channel": "C_REPLACE_ME"
+}

@@ -1,0 +1,12 @@
+{
+  "privateRepos": [],
+  "events": [
+    {"id":"sample:1","repo":"example-org/example-app","kind":"pr-opened","at":"2026-10-27T01:00:00Z","title":"検索結果をページ分割","url":"https://example.invalid/pull/1"},
+    {"id":"sample:2","repo":"example-org/example-app","kind":"pr-merged","at":"2026-10-28T01:00:00Z","title":"検索結果のページ分割を追加","url":"https://example.invalid/pull/1"},
+    {"id":"sample:3","repo":"example-org/example-app","kind":"issue-opened","at":"2026-10-29T01:00:00Z","title":"小さい画面の表示を確認","url":"https://example.invalid/issues/2"},
+    {"id":"sample:4","repo":"example-org/example-tools","kind":"issue-closed","at":"2026-10-30T01:00:00Z","title":"設定例の説明を整理","url":"https://example.invalid/issues/3"},
+    {"id":"sample:5","repo":"example-org/example-tools","kind":"release","at":"2026-10-31T01:00:00Z","title":"設定ファイルの検査を追加","url":"https://example.invalid/releases/v0.2.0"},
+    {"id":"sample:6","repo":"example-org/example-app","kind":"pr-opened","at":"2026-11-01T01:00:00Z","title":"表示の調整をレビュー中","url":"https://example.invalid/pull/4"}
+  ],
+  "limitations": ["架空のサンプルです。実際の作業実績ではありません。", "表示調整はレビュー中。利用者への効果・本番公開は未確認です。"]
+}
