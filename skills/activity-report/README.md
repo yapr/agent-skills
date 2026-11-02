@@ -4,7 +4,13 @@ GitHubの作業報告・マージ年表を日本語とPNGで作り、確認後�
 
 ## 導入
 
-Node.js 22以上と日本語フォントが必要です。Skillのフォルダで実行します。
+Node.js 22以上と日本語フォントが必要です。プロジェクト内でSkillを導入します（マージ後）。
+
+```sh
+npx skills add yapr/agent-skills --skill activity-report -a claude-code
+```
+
+PRの確認中は、ソースを `'https://github.com/yapr/agent-skills#dot/activity-report'` に置き換えます。導入された `.claude/skills/activity-report` フォルダで以下を実行します。Codex用は `-a codex` を指定し、その導入先を使います。
 
 ```sh
 npm ci --ignore-scripts
