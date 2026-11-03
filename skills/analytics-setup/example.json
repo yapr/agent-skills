@@ -1,0 +1,4 @@
+{
+  "target": {"url": "https://example.invalid", "framework": "next-app", "ga4_account_id": "100", "gtm_account_id": "200"},
+  "inventory": {"status": "credentials_missing"}
+}

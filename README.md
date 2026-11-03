@@ -26,6 +26,7 @@ npx skills@1.7.4 add /absolute/path/to/agent-skills --skill build-in-public -a c
 | Skill | 用途 |
 | --- | --- |
 | [build-in-public](skills/build-in-public/SKILL.md) | 指定した開発履歴から、事実と機密情報を確認した公開用の下書きを作る。投稿はしない。 |
+| [analytics-setup](skills/analytics-setup/SKILL.md) | GTM＋GA4の棚卸し・再利用・導入計画と検証を支援する。 |
 
 ## 利用・貢献
 
