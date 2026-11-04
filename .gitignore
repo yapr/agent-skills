@@ -8,3 +8,8 @@ node_modules/
 .codex/
 skills-lock.json
 *.log
+
+# 作業報告のローカル設定・実績
+config.local.json
+reports/
+highlights.json
