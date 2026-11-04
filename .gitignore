@@ -9,7 +9,8 @@ node_modules/
 skills-lock.json
 *.log
 
-# 作業報告のローカル設定・実績
+__pycache__/
+*.py[cod]
 config.local.json
 reports/
 highlights.json
