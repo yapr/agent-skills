@@ -26,6 +26,7 @@ npx skills@1.7.4 add /absolute/path/to/agent-skills --skill build-in-public -a c
 | Skill | 用途 |
 | --- | --- |
 | [build-in-public](skills/build-in-public/SKILL.md) | 指定した開発履歴から、事実と機密情報を確認した公開用の下書きを作る。投稿はしない。 |
+| [ship-project](skills/ship-project/SKILL.md) | リリース前の根拠と残件を整理する。公開操作はしない。 |
 
 ## 利用・貢献
 
