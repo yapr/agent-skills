@@ -27,6 +27,7 @@ npx skills@1.7.4 add /absolute/path/to/agent-skills --skill build-in-public -a c
 | --- | --- |
 | [build-in-public](skills/build-in-public/SKILL.md) | 指定した開発履歴から、事実と機密情報を確認した公開用の下書きを作る。投稿はしない。 |
 | [activity-report](skills/activity-report/SKILL.md) | GitHubの作業報告・年表を図解し、確認後にSlackへ送る。[導入手順](skills/activity-report/README.md) |
+| [ship-project](skills/ship-project/SKILL.md) | リリース前の根拠と残件を整理する。公開操作はしない。 |
 
 ## 利用・貢献
 
