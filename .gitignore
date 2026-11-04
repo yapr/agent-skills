@@ -11,3 +11,6 @@ skills-lock.json
 
 __pycache__/
 *.py[cod]
+config.local.json
+reports/
+highlights.json
