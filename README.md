@@ -29,6 +29,9 @@ npx skills@1.7.4 add /absolute/path/to/agent-skills --skill build-in-public -a c
 | [analytics-setup](skills/analytics-setup/SKILL.md) | GTM＋GA4の棚卸し・再利用・導入計画と検証を支援する。 |
 | [activity-report](skills/activity-report/SKILL.md) | GitHubの作業報告・年表を図解し、確認後にSlackへ送る。[導入手順](skills/activity-report/README.md) |
 | [ship-project](skills/ship-project/SKILL.md) | リリース前の根拠と残件を整理する。公開操作はしない。 |
+| [plan-roadmap](skills/plan-roadmap/SKILL.md) | ヒアリングからゴールへの道筋を作り、調査Issue・SMARTなサブIssueと依存関係に落とす。[ローカルで試す手順](skills/plan-roadmap/README.md) |
+
+`plan-roadmap` は、例えば「〇〇を実現する道筋を相談しながら作り、GitHubの親IssueとサブIssueの案にして」と依頼できます。まず目的と制約を確認し、未決定の方向性は調査Issueへ分けます。[架空の分解例](skills/plan-roadmap/references/example.md)と[確認ケース](tests/plan-roadmap.md)もあります。
 
 ## 利用・貢献
 
