@@ -4,14 +4,14 @@
 
 ## 状態と導入
 
-初期実装はレビュー待ちです。配置は `skills/<skill-name>/SKILL.md` です。
-初期PRのマージ後、プロジェクト内で実行してください。
+2026-11-07時点で、下の5種類がmainにマージ済みです。配置は `skills/<skill-name>/SKILL.md` です。
+導入前に対象Skillとライセンスの状態を確認し、プロジェクト内で実行してください。
 
 ```sh
 npx skills add yapr/agent-skills --skill build-in-public -a codex
 ```
 
-このコマンドはマージ後の例で、mainからの導入は未検証です。導入前にSkillを確認してください。[公式CLI](https://github.com/vercel-labs/skills)は既定でプロジェクト内に導入します。全体へ導入する場合だけ `-g` を指定します。
+このコマンドはmainからの導入例です。この経路の実行確認はまだ行っていません。導入前にSkillを確認してください。[公式CLI](https://github.com/vercel-labs/skills)は既定でプロジェクト内に導入します。全体へ導入する場合だけ `-g` を指定します。
 
 ローカルの確認には、一時プロジェクトで次を使います。
 
@@ -19,7 +19,13 @@ npx skills add yapr/agent-skills --skill build-in-public -a codex
 npx skills@1.7.4 add /absolute/path/to/agent-skills --skill build-in-public -a codex -y
 ```
 
-検証済みなのはCodex用ファイルの導入です。エージェントの実動作やClaude Code対応は未検証です。
+PR時点の検証記録は次のとおりです。今回の状態整理で再実行したものではありません。
+
+- `build-in-public` / `ship-project` / `plan-roadmap`: 隔離したプロジェクトへのCodex用ファイル配置と、原本との一致を確認済み。
+- `activity-report` / `analytics-setup`: 隔離したプロジェクトへのClaude Code用ファイル配置を確認済み。生成・dry-run・モックや架空データを使うテストも確認済み。
+- ファイルを導入できることと、実エージェントで一連の作業が動くことは別です。mainからの導入、実アカウントでの操作・送信、自然言語からの発動は未検証です。
+
+各Skillの手順と未確認事項は、下のREADME・確認ケースを参照してください。
 
 ## Skill
 
